@@ -1,0 +1,93 @@
+************************************* Invoked: Sat Jan 30 14:40:25 2021
+[0] Arguments: C:\Users\91868\OneDrive\Desktop\msys2-x86_64-20210105.exe
+[8] Operations sanity check succeeded.
+[8] Language: en-US
+[11135] Preparing meta information download...
+[11153] Warning: Empty filename passed to function
+[11154] Warning: Empty filename passed to function
+[11154] Warning: Empty filename passed to function
+[11162] Warning: Empty filename passed to function
+[11162] Warning: Empty filename passed to function
+[11162] Warning: Empty filename passed to function
+[11164] Warning: Empty filename passed to function
+[11165] Warning: Empty filename passed to function
+[11165] Warning: Empty filename passed to function
+[11166] Warning: Empty filename passed to function
+[11166] Warning: Empty filename passed to function
+[11166] Warning: Empty filename passed to function
+[11169] Warning: Empty filename passed to function
+[11169] Warning: Empty filename passed to function
+[11169] Warning: Empty filename passed to function
+[11346] Warning: Empty filename passed to function
+[11346] Warning: Empty filename passed to function
+[11346] Warning: Empty filename passed to function
+[11347] Warning: Empty filename passed to function
+[11347] Warning: Empty filename passed to function
+[11348] Warning: Empty filename passed to function
+[50753] OverwriteTargetDirectory : Warning : You have selected an existing, non-empty directory for installation.
+Note that it will be completely wiped on uninstallation of this application.
+It is not advisable to install into this directory as installation might fail.
+Do you want to continue? Yes|No
+[101772] backup  operation: Mkdir
+[101773] 	- arguments: D:/BML Education/vs code/MSYS2
+[101773] Done
+[101773] perform  operation: Mkdir
+[101773] 	- arguments: D:/BML Education/vs code/MSYS2
+[101773] Done
+[101774] Preparing the installation...
+[101774] Install size: 2 components
+[101862] Installing component MSYS2 64bit base
+[101864] backup com.msys2.root.base operation: Extract
+[101864] 	- arguments: installer://com.msys2.root.base/20210105msys64.7z, D:\BML Education\vs code\MSYS2
+[101865] Done
+[101866] perform com.msys2.root.base operation: Extract
+[101866] 	- arguments: installer://com.msys2.root.base/20210105msys64.7z, D:\BML Education\vs code\MSYS2
+[212374] Done
+[212374] backup com.msys2.root.base operation: CreateShortcut
+[212374] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 32-bit.lnk, -mingw32, iconPath=D:\BML Education\vs code\MSYS2/mingw32.exe
+[212374] Done
+[212374] perform com.msys2.root.base operation: CreateShortcut
+[212374] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 32-bit.lnk, -mingw32
+[212411] Done
+[212411] backup com.msys2.root.base operation: CreateShortcut
+[212411] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 64-bit.lnk, -mingw64, iconPath=D:\BML Education\vs code\MSYS2/mingw64.exe
+[212412] Done
+[212412] perform com.msys2.root.base operation: CreateShortcut
+[212412] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MinGW 64-bit.lnk, -mingw64
+[212429] Done
+[212430] backup com.msys2.root.base operation: CreateShortcut
+[212430] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MSYS.lnk, -msys, iconPath=D:\BML Education\vs code\MSYS2/msys2.exe
+[212430] Done
+[212430] perform com.msys2.root.base operation: CreateShortcut
+[212430] 	- arguments: D:\BML Education\vs code\MSYS2\msys2_shell.cmd, C:\Users\91868\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MSYS2 64bit/MSYS2 MSYS.lnk, -msys
+[212443] Done
+[212443] backup com.msys2.root.base operation: Execute
+[212443] 	- arguments: D:\BML Education\vs code\MSYS2\usr\bin\bash.exe, --login, -c, exit
+[212443] Done
+[212443] perform com.msys2.root.base operation: Execute
+[212443] 	- arguments: D:\BML Education\vs code\MSYS2\usr\bin\bash.exe, --login, -c, exit
+[212458] D:\\BML Education\\vs code\\MSYS2\\usr\\bin\\bash.exe" started, arguments: "--login -c exit
+[213083] Copying skeleton files.\nThese files are for the users to personalise their msys2 experience.\n\nThey will never be overwritten nor automatically updated.\n\n'./.bashrc' -> '/home/91868/.bashrc'\n'./.bash_logout' -> '/home/91868/.bash_logout'\n'./.bash_profile' -> '/home/91868/.bash_profile'\n'./.inputrc' -> '/home/91868/.inputrc'\n
+[213094] './.profile' -> '/home/91868/.profile'\n
+[213167] 'C:\\Windows\\system32\\drivers\\etc\\hosts' -> '/etc/hosts'\n
+[213198] 'C:\\Windows\\system32\\drivers\\etc\\protocol' -> '/etc/protocols'\n
+[213231] 'C:\\Windows\\system32\\drivers\\etc\\services' -> '/etc/services'\n
+[213261] 'C:\\Windows\\system32\\drivers\\etc\\networks' -> '/etc/networks'\n
+[215344] ==> Updating trust database...\n==> Appending keys from msys2.gpg...\n
+[215658] ==> Locally signing trusted keys in keyring...\n  -> Locally signing key 123D4D51A1793859C2BE916BBBE514E53E0D0813...\n
+[215730]   -> Locally signing key B91BCF3303284BF90CC043CA9F418C233E652008...\n
+[215884]   -> Locally signing key 6E8FEAFF9644F54EED90EEA0790AE56A1D3CFDDC...\n
+[216037]   -> Locally signing key 69985C5EB351011C78DF7F6D755B8182ACD22879...\n
+[216110]   -> Locally signing key 9DD0D4217D75A33B896159E6DA7EF2ABAEEA755C...\n
+[216263]   -> Locally signing key D55E7A6D7CE9BA1587C0ACACF40D263ECA25678A...\n
+[216335] ==> Importing owner trust values...\n==> Disabling revoked keys in keyring...\n
+[216346]   -> Disabling key B19514FB53EB3668471B296E794DCF97F93FC717...\n
+[216419] ==> Updating trust database...\n
+[249773] \x1B[H\x1B[2J\x1B[3J\n\n###################################################################\n#                                                                 #\n#                                                                 #\n#                   C   A   U   T   I   O   N                     #\n#                                                                 #\n#                  This is first start of MSYS2.                  #\n#       You MUST restart shell to apply necessary actions.        #\n#                                                                 #\n#                                                                 #\n###################################################################\n\n\n\x1B[H\x1B[2J\x1B[3J
+[249773] Done
+[249782] Writing maintenance tool: "D:\\BML Education\\vs code\\MSYS2/maintenancetool.exe.new"
+[249782] Writing maintenance tool.
+[249897] Wrote permissions for maintenance tool.
+[249995] Maintenance tool restart: false.
+[249997] Installation finished!
+[269251] starting "D:\\BML Education\\vs code\\MSYS2/msys2_shell.cmd" ()

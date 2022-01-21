@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travaling imformation center</title>
+    <style>
+    </style>
+    <script>
+        function add(){
+            var appcode =  document.getElementById("appcode").value;
+           // alert(appcode);
+            //  appcode = appcode.toLowerCase();
+            if( appcode == 'ww50'){
+                alert("nnn");
+                var table = document.getElementById("table").innerHTML;
+                document.getElementById("table").innerHTML += "<tr><td>WW50</td> <td>xxxx</td> <td>pa</td> <td> time </td></tr>";
+                alert(table);
+             }
+       }
+    </script>
+</head>
+<h1 style="text-align: center;"> One RBC FireCall IDs - All Applications</h1>
+<body>
+    <table style="width:100%" border="1px"id="table">
+        <tr >
+          <th>App Code</th>
+          <th>Login Id</th>
+          <th>Password</th>
+          <th>End Time</th>
+        </tr>
+    </table><br>
+    
+    <label for="appcode">App Code:</label>
+    <input type="text" placeholder="Enter App Code" id="appcode" required/>
+    <label for="app code">Password:</label>
+    <input type="text" placeholder="Enter App Code" required/>
+    <input type="submit" value="Add Creds" onclick="add()">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <input type="button" value="Clear" >
+    
+    
+</body>
+</html>

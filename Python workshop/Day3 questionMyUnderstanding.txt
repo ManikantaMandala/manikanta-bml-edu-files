@@ -1,0 +1,45 @@
+For,While,Range:
+1.y:2,n:3;-->dt['y']*dt['n']=2*3=6 so, the option is "d"                     -->correct
+
+2.when the condition of for loop fails else executes.So the option is'c'     -->correct
+
+3.As upper() method is not store so,x is not effected So, it is option 'a'   -->correct
+
+4.range(x) is only for producing an array of integers not used for str       -->correct
+  So,the option is 'c'
+
+Functions:
+
+1.	0-->  000 | 000 ==000 ==0 and i
+	1-->  001 | 001 ==001 ==1 and i
+	2-->  010 | 001 ==011 !=i
+	3-->  011 | 001 ==011 ==3 and i
+	4-->  100 | 001 ==101 !=i
+	5-->  101 | 001 ==101 ==5 and i
+	6-->  110 | 001 ==111 !=i
+	lst=[0,1,2,9,4,25]
+	1+2+9+4+25+0==41==sum(lst)
+	len(lst)==6
+	sum(lst)//len(lst)=41//6=6
+	So, the option is 'a'                                                  -->correct
+
+2.*args= to give multiple arguments
+  **kwargs to give keys of a dictionary.
+  So, Option b	                                                               -->correct
+
+3.If there are two parameters then given only one parameter 
+  the function will create address to the second parameter
+  So,the option is 'c'                                                         -->correct
+
+4. By using recursion fun() function became a factorial function.
+  the answer is 45.0 'c'                                                       -->correct
+
+
+OOPS:
+1.__init__('c')                                                                -->correct
+
+2.self('b')                                                                    -->correct
+
+3.option is 'b'                                                                -->correct
+
+4.index() so, the option is "c"                                                -->correct

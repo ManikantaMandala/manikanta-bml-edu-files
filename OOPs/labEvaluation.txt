@@ -1,0 +1,20 @@
+Create a class named 'Hospital' with the following data members 
+- Name of Patient 
+- Patient_id 
+- Age 
+- Address 
+- Disease 
+- Doctor’s name diagnosing him 
+- PathLab Test prescribed (boolean) 
+Class 'Hospital' has a method for each of the following 
+- Generate automatically unique patient id for each patient. For first patient, patient id will be Patient001, for second patient, it will be Patient002 and so on. 
+- Display details of patient 
+- Assign a doctor 
+- Prescribe a test if required 
+The program will support the following menu based activities (This class name must be same as your first name): do the following operations 
+1 Number of patients are to be entered by user. Depending upon the number of patient, enter the information (name, age, address, disease) for each patient. Doctor’s name and status of pathlab test is unknown while entering the patient 
+3 - Print the information of all the patients 
+4 - Remove the patient if that patient is cured 
+5- Assign a doctor 6- Pre
+6- Prescribe Test 
+7- If referred to another doctor, update new doctor’s information

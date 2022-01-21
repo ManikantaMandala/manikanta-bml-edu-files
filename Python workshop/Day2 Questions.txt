@@ -1,0 +1,179 @@
+
+Operators:
+
+1.
+
+a= 8 if not True else 6
+b=9 if 4>5 else ord(' ')
+print(b%a)
+
+( Here ord() will give ASCII Values ) 
+
+a. 1
+b. 0
+c. 2
+d. 6
+
+2.
+
+a=True and not 1==2
+b= not True or False
+c=bool(0)
+if a and not b==c: 
+    print (True)
+else:
+    print (False)
+
+a. True
+b. False
+
+3.
+
+if 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:
+    print(1)
+    print(2)
+if 'a' in 'qux':
+     print(3)
+print(4)
+
+a. 4
+ 
+b.  1
+  	  2
+  	  4
+ 
+c.  1
+ 	    2
+    	 3
+ 	    4
+ 
+d.  It doesn’t generate any   output.
+ 
+ 
+4.
+
+The following if/elif/else statement will raise a KeyError exception:
+
+d = {'a': 0, 'b': 1, 'c': 0}
+if d['a'] > 0:
+     print('ok')
+elif d['b'] > 0:
+     print('ok')
+elif d['c'] > 0:
+     print('ok')
+elif d['d'] > 0:
+     print('ok')
+else:
+     print('not ok')
+
+a. True
+b. False
+
+
+Sets and Dictionaries:
+
+1.
+
+Which of the following cannot be included in a set?
+
+a. tuple
+b. int
+c. string
+d. list
+
+2.
+
+Which of the following data structure is often compared to Hash table?
+
+a. list
+b. set
+c. dictionary
+d. tuple
+
+3.
+
+What is the output of following snippet
+
+a={1:4,5:7,3:2}
+b={4:1,3:5,2:4}
+a.update(b)
+print(a[a[3]])
+
+a. 7
+b. 4
+c. 5
+d. error
+
+If, else, elif:
+
+1.
+
+What part of an if statement should be indented?
+ 
+a.The first line
+b.All of it
+c.The statements within it’
+d.None of the above statements
+
+2.
+
+Given the nested if-else below, what will be the value x when the code executed successfully
+
+x = 0
+a = 5
+b = 5
+if a > 0:
+    if b < 0: 
+        x = x + 5 
+    elif a > 5:
+        x = x + 4
+    else:
+        x = x + 3
+else:
+    x = x + 2
+print(x)
+ 
+a. 0
+b. 4
+c. 2
+d. 3
+ 
+3.
+
+lst = [1,4,6,2,8]
+ 
+if 3 in lst:
+   a=lst.index(3)
+else:
+   a=lst.append(6).index(6)
+ 
+print(a)
+ 
+a. 2
+b. 5
+c. 6
+d. error
+ 
+4.
+
+Which one of the following if statements will not execute successfully:
+
+a. if (1, 2):
+       print('foo')
+b. if (1,2) :print('foo')
+c. if (1, 2):
+                print('foo')
+d. if (1, 2):
+ 
+    print('foo')
+e. if (1, 2):
+   print('foo')
+
+5.
+ 
+What signifies the end of a statement block or suite in Python?
+
+a. }
+b. end
+c. A line that is indented less than the previous lin
+d. A comment

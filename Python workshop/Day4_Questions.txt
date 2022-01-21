@@ -1,0 +1,107 @@
+
+1.In which of the following inheritances a class inherits more than one class?
+a. single inheritance
+b. multi level inheritance
+c. hierarchical inheritance
+d. multiple inheritance
+
+2.which of the following takes cls as parameter
+a. @decorator
+b. @property
+c. @staticmethod
+d. @classmethod
+
+3.which of the following is used to call method of a parent class
+a. super
+b. super()
+c. parent()
+d. parent
+
+4.what is the mro[4] of the following snippet
+
+class A:
+    pass
+class B(A):
+    pass
+class C:
+    pass
+class D(A,C):
+    pass 
+class E:
+    pass
+class F(E,B,D):
+    pass
+mro =  F.mro()
+
+a. <class '_main_.A'>
+b. <class '_main_.D'>
+c. <class '_main_.C'>
+d. <class '_main_.E'>
+
+5.which of the following operation(s) results in 7 if a=2 and b=5
+a. int._add_(a,b)
+b. a._add_(5)
+c. b._add_(2)
+d. all of the above
+
+6.which of the following is used as a method to perform / using operator overloading?
+a. _div_()
+b._floordiv_()
+c._divmod_()
+d. None of the above
+
+7.which of the following OOP concept is related to method overloading
+a. Encapsulation
+b. Abstraction
+c .Inheritance
+d. Polymorphism
+
+8.which of the following method(s) need not to know the state of class?
+a. static  method
+b. class method
+c. both
+d. neither a nor b
+
+9. What is the output of following code
+    print(int._lt(2,4))#lt_ => “<”
+a. 1
+b. True
+c. 0
+d. False
+
+10.
+class A:
+    def _init_(self,a):
+        self.__name=a
+
+a=A(“Tony”)
+a.__name=”Stark”
+print(a.__name)
+
+What is the output of following code?
+a. Tony
+b. Stark
+c. Tony Stark
+d. Error
+
+11.what is the output of following code
+class A:
+    count=0
+    def _init_(self):
+        A.count+=1
+a=A()
+b=A()
+c=A()
+d=A()
+print(c.count)
+
+a. 4
+b. 3
+c. 5
+d. error
+
+12.which of the following is used for overloading “in” operator?
+a._in_
+b._member_
+c._contains_
+d._have_

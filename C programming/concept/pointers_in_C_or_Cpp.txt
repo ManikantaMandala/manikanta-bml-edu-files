@@ -1,0 +1,38 @@
+-----------------------POINTERS--------------------------------(#==points;@==questions)
+#pointers(defination): variable that stores the address of the another variable of same type.
+#declaration(syntax): data_type * variable_name; -----> this means 
+	"the VALUE AT is variable_name has a ADDRESS of a int variable."  //for declaration.
+@What happens when we you a point like a normal variable?
+
+Eg:
+	int a,*p;
+	p=&a; 
+	a=5;
+	p=204; //lets the address of a is 204 and the address of p is 64
+	printf("%d %d %d %d %d",p,&a,&p,*p); //204 204 64 5
+	*p=8;
+	printf("%d",a); //8 
+//printing the value of a variable with a pointer is called derefrencing
+
+WORKING WITH POINTERS:
+storage classes in c programming:
+Problems1:
+#include<stdio.h>
+int main(){
+	int a;
+	int *p;
+	p=&a;
+	printf("%d",p);//when the above statement is commented, then compiler shows an error 
+			//because we did not intialized p
+}
+
+
+
+
+
+
+
+
+
+
+

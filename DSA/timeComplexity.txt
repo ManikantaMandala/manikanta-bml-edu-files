@@ -1,0 +1,32 @@
+Time Complexity:
+    Time taken bu an algorithm as a functio of the length of input.
+"O()" will be used to represent the times highest order in the time equation.
+    lets say,
+        sum of numbers:
+            1. using the formula --> this will take very less time. it's in O(1)
+            2. using the any loop --> this will take time and lets say we have N numbers to sum. Then the O(n) will be the time complexity.
+
+Recursion Time Complexity will be a bit tuffer than normal loops (It may be bit tuffer not tuffest thing to do!)
+
+We can use recursion tree or expansion substition methods to find out the time complexity of the program.
+
+For Example:
+    t(n)= 2t(n/2)+c
+    t(n/2)= 2t(n/4)+c
+    t(n/4)= 2t(n/8)+c
+    :
+    :
+    :
+    t(1)=1;
+
+    => t(n)= 2^n-1(t1)+(2^n-1)c
+
+
+
+
+
+
+
+
+
+

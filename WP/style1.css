@@ -1,0 +1,33 @@
+.odiv{
+  background-color : #bd93f9;
+  /* position: relative; */
+  width: 750px;
+  height: 400px;
+}
+body{
+  margin-left: 120px;
+  /* position: relative; */
+}
+.div1st{
+  background-color: green;
+  width: 100px;
+  height: 50px;
+}
+.div2nd{
+  background-color: red;
+  position: absolute;
+  width: 150px;
+  margin-right: 0;
+  height: 75px;
+  right: 0cm;
+  z-index: 1;
+}
+.div3rd{
+  background-color: #8be9fd ;
+  position: relative;
+  top: 100px;
+  right: 120px;
+  width: 120px;
+  height: 60px;
+  z-index: 0;
+}

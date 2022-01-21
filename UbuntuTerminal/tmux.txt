@@ -1,0 +1,14 @@
+tmux -> will start a session.
+Ctrl+b% -> will create a vertical pane in the current session.
+Ctrl+b" -> will create a horizontal pane in the current session.
+Ctrl+b<arrows> -> will navigate with the respective arrow actions.
+Ctrl+bc -> will create a new window in the current session.
+Ctrl+b<indexOfWindow> -> will navigate though windows.
+Ctrl+b, -> will rename the window.
+Ctrl+bd -> will detach the session.
+tmux attach -t <session> -> will attach to that session.
+tmux ls -> will show how many session are currently running.
+tmux rename-session -t <session> <rename> -> will change the sessions name to rename.
+Ctrl+a$ -> will rename the session for the current session
+tmux new -s nameOfSession -> will create a new session. 
+tmux kill-session -t <session> -> will kill the session.

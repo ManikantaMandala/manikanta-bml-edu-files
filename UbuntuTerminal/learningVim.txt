@@ -1,0 +1,93 @@
+Commands:
+    navigation in normal form:
+        j - moves the cursor down
+        k - moves the cursor up
+        h - moves the cursor right
+        l - moves the cursor left
+        
+    navigation in the lines(By using the words count):
+        "n"+w -> will move that many words and stops at the starting of next word
+        "n"+e -> will move that many words and stops at the ending of last word
+        CTRL-G -> will show your location in the file and the file status
+        G -> will go to the end of the file
+        gg -> will go to the starting of the file
+        <number> + (gg/G) -> will move to the starting of that numbered line in the file.
+        % -> will go to the starting/ending of only that kind of brackets
+    $ -> will go to the ending of the line.(we can do like 2$ to go)
+    b -> will go a word backward
+    w -> will go a word forward
+    W and B -> will also do the same things as there little letters do.
+    e -> will go a end space ahead
+    ge -> will go a end space backward 
+    (and same with there capitals)
+    0 -> will go to the starting of a line
+    ^ -> will go to the first non-blank character of the line.
+    H -> moves the cursor to the top of the screen.(Home)
+    M -> moves the cursor to the middle of the screen.(Middle)
+    L -> moves the cursor to the bottom of the screen.(Last)
+    Exiting from vim:
+        :q! - exits from the editor with discarding any changes
+        :wq - save a file and exit the editor.
+        
+    Deleting from normal mode:
+        x - delete the character under the cursor
+        dw - delete a word up to the starting of next word(the cursor should be at the beginning of the word you want to delete) including the space(" ")
+        d$ - deleting the line after  cursor.
+        de - deleting the word excluding space(" ").
+        d+<number>+<motion> - deleting the words(w) or ends(e) or lines($) by the count of words.  
+        dd - delete the whole line.
+    
+    Inserting in vim:
+        i - we will go to insert mode
+        A - we can append in a line(Doesn't matter where the cursor is in that line!)
+        p - we use this to paste which was previously deleted by "dd"
+        r - this is used to replace the letters in normal mode
+	s - substitution (x+i)
+
+    Undoing the commands:
+        u - undoing the previous actions
+        U - undoing all the changes on a line
+    
+    Changing in normal mode:
+        ce - this will change from the starting of the current position of cursor to the end.
+        c+<number>+w - this will delete the number of words in the line
+        c + [number] + <motion> - change the number of "motion"
+            Eg: $ -> end of the line
+                w -> words
+                e -> spaces
+        :#,#s/old/new/g -> where #,# are the line numbers of the range of line numbers of range of lines where the substitution is to be done.
+        :s/old/new/g -> changes all occurrences of "old" to "new" in the line(without /g at the ending it will change only first occurrence)    
+        :%s/old/new/g -> changes every occurrence in the whole file.
+        :%s/ole/new/gc -> to find every occurrence in the whole file, with a prompt whether to substitute or not.   
+
+    Scrolling around in vim:
+        CTRL-u -> scrolls down half a screen of text
+        CTRL-d -> scrolls up half a screen of text
+        CTRL-e -> scrolls up for an extra line
+        CTRL-y -> scrolls down for an extra line  
+        CTRL-b -> scrolls down shows the first line
+        CTRL-f -> scrolls up shows the first line
+        zt     -> makes the current line as the top line after executing it.(current line means that "The line with the cursor")
+        zz     -> makes the current line as the middle line after executing it.
+        zb     -> makes the current line as the bottom line after executing it.
+  Moving to a character:
+        f+'char' -> will search the char in that line. (f stands for 'find')
+        num +f+ 'char' -> will go to the next char after searching for num-1 times of the char
+        F+'char' -> will search the char in backwards.
+        t+'char' -> works the same way but the only difference is that it stops one character before the char.
+
+    previous commands in vim:
+        COMMAND-MODE+ action + CTRL+f -> this will show you what commands are being done previously.             
+        COMMAND-MODE+ action + <UP-ARROW> -> this will show you what command you used with the action you typed-in in this current command.
+        
+    Simple searches:
+        /+"String" -> will search forward for that string in the file.
+        ?+"String" -> will search backward for that string in the file.
+            , to move to the next repeating string use 'n' (forward)
+            and to move to in the other direction then use 'N' (backward) 
+        *      -> this will take you to the next occurrence of the word that your cursor is on. its like /\<THAT-WORD\>
+        #      -> this will also work like "*" but in the reverse direction.
+        /\<SOME-WORD\> -> this will the exact word in the file not like /string search
+        :set hlserch -> this will high-light the word you searched with /string search        (if you want to remove the highlighting then :set nohlsearch will remove it)
+        :nohlsearch -> this will disables the high-lighting it does not reset the option.
+        

@@ -1,0 +1,13 @@
+emailID:
+bWFuZGFsYS5tYW5pa2FudGEuMjBjc2VAYm11LmVkdS5pbg
+password:
+ODY4ODAxNDgyMAo
+
+boddu.jugalbhaskarnagaganesh.20cse@bmu.edu.in
+
+From:mandala.manikanta.20cse@bmu.edu.in
+Subject:This is a test
+Hi,
+this is a test.
+regrads,
+Manikanta Mandala.
