@@ -6,7 +6,7 @@
 }
 body{
   margin-left: 120px;
-  /* position: relative; */
+  position: relative;
 }
 .div1st{
   background-color: green;
@@ -24,8 +24,8 @@ body{
 }
 .div3rd{
   background-color: #8be9fd ;
-  position: relative;
-  top: 100px;
+  position: absolute;
+  /* top: 100px; */
   right: 120px;
   width: 120px;
   height: 60px;

@@ -1,0 +1,10 @@
+Hotel:
+As a customer, you'll need a place to lay down after a long day's labour, and that location will be your home if you're in your hometown, 
+but what if you're not? Don't worry, we've got you covered. HC cordially invites you to enjoy a homely experience in a friendly environment 
+in a non-home town with plenty of luxuries around.
+
+
+service:
+
+If ambeince is one aspect of luxury, the service we deliver in it is a significant step forward. Yes, we believe that with the best service, you will have a 
+quality time spent with us, thus we make every effort to serve you in all aspects that make you feel comfortable.

@@ -5,7 +5,7 @@ Commands:
         h - moves the cursor right
         l - moves the cursor left
         
-    navigation in the lines(By using the words count):
+    Navigation in the lines(By using the words count):
         "n"+w -> will move that many words and stops at the starting of next word
         "n"+e -> will move that many words and stops at the ending of last word
         CTRL-G -> will show your location in the file and the file status
@@ -76,7 +76,7 @@ Commands:
         F+'char' -> will search the char in backwards.
         t+'char' -> works the same way but the only difference is that it stops one character before the char.
 
-    previous commands in vim:
+    Previous commands in vim:
         COMMAND-MODE+ action + CTRL+f -> this will show you what commands are being done previously.             
         COMMAND-MODE+ action + <UP-ARROW> -> this will show you what command you used with the action you typed-in in this current command.
         
@@ -85,7 +85,7 @@ Commands:
         ?+"String" -> will search backward for that string in the file.
             , to move to the next repeating string use 'n' (forward)
             and to move to in the other direction then use 'N' (backward) 
-        *      -> this will take you to the next occurrence of the word that your cursor is on. its like /\<THAT-WORD\>
+        *      -> this will take you to the next occurrence of the word that your cursor is on. Its like /\<THAT-WORD\>
         #      -> this will also work like "*" but in the reverse direction.
         /\<SOME-WORD\> -> this will the exact word in the file not like /string search
         :set hlserch -> this will high-light the word you searched with /string search        (if you want to remove the highlighting then :set nohlsearch will remove it)

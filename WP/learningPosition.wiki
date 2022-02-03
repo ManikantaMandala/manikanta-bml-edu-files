@@ -1,0 +1,5 @@
+= Position =
+| Absolute                                                                      | Relative                                                            |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| * Element will be positioned relative to the _*closest positioned ancestor*_. | * Element will be positioned relative to its _*original position*_. |
+| * Element will be _*removed*_ from normal document flow.                      | * Element will _*remain*_ in normal document flow.                  |
