@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">multiScreenApplication</string>
+    <string name="Name">Enter the Name</string>
+    <string name="button">Button</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">myChitFundApplication</string>
+    <string name="mychitti">MYCHITTI</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_passowrd">forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="re_password">Re-Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_out">sign Out</string>
+    <string name="enter_your_registered_email_id_to_reset_the_password">Enter Your Registered Email ID to reset the password</string>
+    <string name="forgot_password1">Forgot Password</string>
+    <string name="re_set_password">Re-set Password</string>
+    <string name="keep_your_all_chit_funds_in_one_place">Keep your all chit funds in one place</string>
+    <string name="register">Register</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="my_chits">My chits</string>
+    <string name="user_details">User details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addbuttonformorechits">addButtonForMoreChits</string>
+    <string name="circular">cornerSize=50%</string>
+    <string name="todo">TODO</string>
+    <string name="username">UserName</string>
+    <string name="userid">UserID</string>
+</resources>

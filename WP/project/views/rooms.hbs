@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/roomsStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>Rooms</title>
+</head>
+<body>
+  
+    <div class="banner">
+      <div class= "navbar">
+        <a href="./">
+          <img src="Hotel/logo.svg" alt="logo" class="logo" >
+        </a>
+        <ul>
+          <li><a href="./contact">Contact Us</a></li>
+          <button type="button" class="SignUp" id="button">Sign Up</button>
+        </ul>
+      </div>
+      <img name="slide" width="400" height="200" id="backgroundImage" alt="bkimg">
+    </div>
+    <div class="heading">
+      <h4>Heavenly Castle</h4>
+      <h1>MODERN ROOMS</h1>
+      <p>Explore our elegant guest rooms below</p>
+    </div>
+    <div class="left">
+      <img class="leftPic" src="Hotel/conformationm.jpg" alt="Rooms">
+      <div class="leftDis">
+        <h3>Deluxe Room</h3>
+        <div class="roomPoints">
+          <p>250 sq.ft</p>
+          <p>Queen Bed</p>
+        </div>
+        <br>
+        <div class="infoButtons">
+          <a href="./booking" class="bookNowButtons">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <img class="rightPic" src="Hotel/img1.jpg" alt="Rooms">
+      <div class="rightDis">
+        <h3 >Double Deluxe Room</h3>
+        <div class="roomPoints">
+          <p>King Bed</p>  
+          <p>300 sq.ft</p> 
+          <p>Queen-size Sofa bed</p> 
+        </div>
+        <br>
+        <div class="infoButtons">
+            <a class="bookNowButtons" href="./booking">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="left">
+      <img class="leftPic" src="Hotel/rooms.jpg" alt="Rooms">
+      <div class="leftDis">
+        <h3>Exclusive Room</h3>
+        <div class="roomPoints">
+          <p>250 sq.ft</p>
+          <p>Queen Bed</p>
+        </div>
+        <br>
+        <div class="infoButtons">
+          <a href="./booking" class="bookNowButtons">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <img class="rightPic" src="Hotel/img1.jpg" alt="Rooms">
+      <div class="rightDis">
+        <h3 >Double Deluxe Room</h3>
+        <div class="roomPoints">
+          <p>King Bed</p>  
+          <p>300 sq.ft</p> 
+          <p>Queen-size Sofa bed</p> 
+        </div>
+        <br>
+        <div class="infoButtons">
+            <a class="bookNowButtons" href="./booking">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    {{!-- <div class="footer" id="Footer">
+      <div>
+          <div class="aboveelement">
+          <h1>Heavenly Castle</h1>
+          <h3>HOTELS</h3>
+          </div>
+
+          <div class="belowelement">
+          <p> 497 Dabha Gardens, Vizag, 500020
+              <br>
+              +91 8098016127
+              <br>
+              heavenlycastle@gmail.com
+          </p>
+          <p> +91 8098016127</p>
+          <p> heavenlycastle@gmail.com</p>
+          </div>
+      </div>
+
+      <div>
+      <img src="Hotel/Heavenly.svg" alt="logo" class="footerLogo" width="400px">
+      </div>
+          
+      <div class="terms">
+          <h4>Terms and Conditions</h4>
+          <p>
+              <br>
+              Privacy Policy
+              <br>
+              Cancellation Terms
+              <br>
+              FAQ's
+          </p>
+      </div>
+
+      <div>
+          <img class="facebook" src="Hotel/facebook.png" alt="fb" width="20px">
+          <p class="facebooktext">Facebook</p>
+      </div>
+
+      <div>
+          <img class="twitter" src="Hotel/twitter.png" alt="twitter" width="20px">
+          <p class="twittertext">Twitter</p>
+      </div>
+
+      <div>
+          <img class="instagram" src="Hotel/instagram.png" alt="insta" width="20px">
+          <p class="instagramtext">Instagram</p>
+      </div>
+
+      <div>
+          <p class="marketing"><b> Subscribe for latest news </b></p>
+          <input type="text" name="" placeholder="Email Address" class="input">
+          <p class="ok">Subscribe</p>
+      </div>
+
+      <div class="terms">
+          <h4>Terms and Conditions</h4>
+          <p>Privacy Policy </p>
+          <p>Cancellation Terms</p>
+          <p>FAQ's</p>
+      </div> --}}
+      {{>footer}}
+      <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;
+    
+        images[0]='Hotel/img1.jpg';
+        images[1]='Hotel/rooms.jpg';
+        images[2]='Hotel/img3.jpg';
+    
+        function changeImg(){
+            document.slide.src = images[i];
+    
+            if(i<images.length-1){
+                i++;
+            }
+            else{
+                i=0;
+            }
+            setTimeout("changeImg()",time);
+        }
+    
+        window.onload = changeImg;
+    
+    </script>
+   
+</body>
+</html>

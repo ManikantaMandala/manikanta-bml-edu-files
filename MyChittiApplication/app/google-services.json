@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "979736595266",
+    "firebase_url": "https://mychitti-c6a3f-default-rtdb.firebaseio.com",
+    "project_id": "mychitti-c6a3f",
+    "storage_bucket": "mychitti-c6a3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979736595266:android:8bdf198b3941c70c3296db",
+        "android_client_info": {
+          "package_name": "com.Areksoft.mychitfundapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT9SJRaqXrfk7QKtiD7dyUn1TKDFzDI5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979736595266:android:f5238f8ab691d97b3296db",
+        "android_client_info": {
+          "package_name": "com.Areksoft.mychittiapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979736595266-dkf0hj11fogcdq5n584s5782e13k23eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Areksoft.mychittiapplication",
+            "certificate_hash": "0abc7905a2026a6911987a4eca8c6702abcc204e"
+          }
+        },
+        {
+          "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT9SJRaqXrfk7QKtiD7dyUn1TKDFzDI5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

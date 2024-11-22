@@ -1,14 +1,42 @@
 tmux -> will start a session.
-Ctrl+b% -> will create a vertical pane in the current session.
-Ctrl+b" -> will create a horizontal pane in the current session.
-Ctrl+b<arrows> -> will navigate with the respective arrow actions.
-Ctrl+bc -> will create a new window in the current session.
-Ctrl+b<indexOfWindow> -> will navigate though windows.
-Ctrl+b, -> will rename the window.
-Ctrl+bd -> will detach the session.
+Ctrl+a% -> will create a vertical pane in the current session.
+Ctrl+a" -> will create a horizontal pane in the current session.
+Ctrl+a<arrows> -> will navigate with the respective arrow actions.
+Ctrl+ac -> will create a new window in the current session.
+Ctrl+a<indexOfWindow> -> will navigate though windows.
+Ctrl+a, -> will rename the window.
+Ctrl+ad -> will detach the session.
 tmux attach -t <session> -> will attach to that session.
 tmux ls -> will show how many session are currently running.
 tmux rename-session -t <session> <rename> -> will change the sessions name to rename.
 Ctrl+a$ -> will rename the session for the current session
 tmux new -s nameOfSession -> will create a new session. 
 tmux kill-session -t <session> -> will kill the session.
+
+
+//tmux config
+
+# Send prefix
+set-option -g prefix C-a
+unbind-key C-a
+bind-key C-a send-prefix
+
+# Use Alt-arrow keys to switch panes
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+# Shift arrow to switch windows
+bind -n S-Left previous-window
+bind -n S-Right next-window
+
+# Mouse mode
+setw -g mouse on
+
+# Set easier window split keys
+bind-key v split-window -h
+bind-key h split-window -v
+
+# Easy config reload
+bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded."

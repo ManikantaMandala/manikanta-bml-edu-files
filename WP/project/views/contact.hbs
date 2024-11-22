@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact and Directions</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="./js/contactJS.js"></script>
+</head>
+<body style="background-color: #181830">
+    <header>
+      <div class= "navbar">
+        <a href="./">
+          <img src="Hotel/logo.svg" alt="logo" class="logo">
+        </a>
+        <ul >
+          <li><a href="./rooms">Rooms</a></li>
+          <button type="button" class="SignUp" id="button">Sign Up</button>
+        </ul>
+      </div>
+    </header>
+    
+    <div class="contact">
+        <h1>CONTACT AND ARRIVAL</h1>
+    </div>
+    <div>
+        <img src = "./Hotel/c3.jpg" alt="pic" class="c1" height="400px" width="750px">
+        
+        <div class="text">
+            <div class="rect">
+            </div>
+            <p> Hyderabad </p>
+        </div>
+            <div class="innertext">
+                <p>Heavenly Castle</p>
+                <br>
+                <p>+91 9865326841</p>
+                <br>
+                <!-- <p>hhc@gmail.com</p> -->
+                <a href="mailto:hhc@gmail.com" onclick="ga('send','even','Email','Click');" style="color: #fde7c3;">hhc@gmail.com</a>
+            </div>
+
+            <div class="text1">
+                <div class="rect1">
+                </div>
+                <p> Delhi </p>
+            </div>
+                <div class="innertext1">
+                    <p>Heavenly Castle</p>
+                    <br>
+                    <p>+91 9865215684</p>
+                    <br>
+                    <!-- <p>dhc@gmail.com</p> -->
+                    <a href="mailto:dhc@gmail.com" onclick="ga('send','even','Email','Click');" style="color: #fde7c3;">dhc@gmail.com</a>
+
+                </div>
+        
+    </div>
+
+    <!-- <div class="map">
+    <h1>Arrival</h1>
+    <img src="map.jpg" alt="map" class="mapimg" height="500px" width="1300px">
+    [um-iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.3169821304!2d78.2679589215428!3d17.41229980121532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1649625487993!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"]
+    </div> -->
+
+    <div class="Arrival"><h1>Arrival</h1></div>
+    <div id="map"></div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8E7infB0C0acwoae0bkUrJN0e8zLWqFo&callback=initMap&v=weekly" 
+    ></script>
+    <div class="car">
+        <h3>By car</h3>
+        <p>via Miyapur to Jubliee Hills,20km to Heavenly Castle </p>
+        <br>
+        <h3>By air</h3>
+        <p>via Rajiv Gandhi international airport,a taxi will be available from there to Heavenly Castle </p>
+    </div>
+    <div class="air">
+        
+    </div>
+    <br>
+    
+    {{>footer}}
+
+
+<script>
+    function initMap() {
+    const uluru = { lat: 17.387, lng: 78.491 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: uluru,
+    });
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+    });
+  }
+</script>
+
+
+</body>
+</html>

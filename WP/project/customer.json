@@ -1,0 +1,19 @@
+[
+    {
+        "Name":"Jugal",
+        "Room":"Deluxe Room",
+        "Age":"19"
+
+    },
+    {
+        "Name":"Manikanta",
+        "Room":"Double Deluxe",
+        "Age":"20"
+    },
+    {
+        "Name":"Siva",
+        "Room":"Double Deluxe",
+        "Age":"20"
+    }
+
+]

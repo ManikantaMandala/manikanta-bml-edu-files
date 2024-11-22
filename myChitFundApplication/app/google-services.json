@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979736595266",
+    "project_id": "mychitti-c6a3f",
+    "storage_bucket": "mychitti-c6a3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979736595266:android:8bdf198b3941c70c3296db",
+        "android_client_info": {
+          "package_name": "com.Areksoft.mychitfundapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT9SJRaqXrfk7QKtiD7dyUn1TKDFzDI5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979736595266-ctp5g4bd0k40e1uaglq603u7q0vq6k9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

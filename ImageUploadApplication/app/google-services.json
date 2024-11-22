@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863368490546",
+    "project_id": "imageuploadapplication-beb59",
+    "storage_bucket": "imageuploadapplication-beb59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863368490546:android:1659dc97870c5e0497562b",
+        "android_client_info": {
+          "package_name": "com.LearningAndroidStudio.imageuploadapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863368490546-ub8sikp74ch2pkqinajkv020hgi6deiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQH9L7ddvAsVXn-yixg6jU9v8DBKIZEcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863368490546-ub8sikp74ch2pkqinajkv020hgi6deiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

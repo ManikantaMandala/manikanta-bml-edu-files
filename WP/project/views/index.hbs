@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Heavenly castle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <video autoplay muted loop id="myVideo" class="video">
+        <source src="../Hotel/cover.mp4" type="video/mp4">
+    </video>
+    <div class="banner">
+      
+      <div class="content">
+        <h1>HEAVENLY CASTLE</h1>
+        <p>Rediscover life with more joy</p>
+      </div>
+      
+      
+      <div class="sideBar">
+        <p><a href="./rooms">RESERVE ROOM</a></p>
+      </div>
+    </div>
+    
+    <header>
+      <div class= "navbar">
+        <a href="./">
+          <img src="Hotel/logo.svg" alt="logo" class="logo">
+        </a>
+        <ul >
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="./rooms">Rooms</a></li>
+          <li><a href="./contact">Contact Us</a></li>
+          <a href="./login">
+          <button type="button" class="SignUp" id="button">Sign Up</button></a>
+        </ul>
+      </div>
+    </header>
+
+    
+  <div id="popup" class = "hero">
+             
+    <div class="close" id="close">
+        <a href="#"><img src="./Hotel/close.png" width="14px" alt="close"></a>
+    </div> 
+
+    <div class="form-box"> 
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
+        </div>
+        <div class="social-icons">
+            <img src="./Hotel/facebook.jpg" alt="fb">
+            <img src="./Hotel/instagram.png" alt="insta" id="insta">
+            <img src="./Hotel/twitter.jpg" alt="twitter">
+
+        </div>
+       <form id="register" class="input-group"  action="/register" method="post">
+            <input type="text" class="input-field" placeholder="User Id" required> 
+            <input type="text" class="input-field" placeholder="Enter Password" required> 
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Sign Up</button>
+
+        </form>
+        <form id="register" class="input-group"  action="/register" method="post">
+            <input type="text" class="input-field" placeholder="User Id" required> 
+            <input type="email" class="input-field" placeholder="Email Id" required> 
+            <input type="text" class="input-field" placeholder="Enter Password" required> 
+            <input type="checkbox" class="check-box"><span>I agree to the terms & conitions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+  </div>
+    
+    <div id="aboutUs">
+      <h2>HEAVENLY CASTLE</h1>
+        <br>
+      <p>As a customer, you'll need a place to lay down after a long day's labour, and that location will be your home if you're in your hometown, but what if you're not? Don't worry, we've got you covered. HC cordially invites you to enjoy a homely experience in a friendly environment in a non-home town with plenty of luxuries around.
+      </p>
+    </div>
+    <div class="arrowUp">
+      <a  href="./">
+        <img src="Hotel/arrow_upward_black.svg" alt="arrowUp">
+      </a>
+    </div>
+    <div class="right">
+      <img class="rightPic" src="Hotel/mainPage.jpg" alt="Room">
+      <div class="rightDis">
+        <h1>ROOM</h1>
+        <br>
+        <h3>Your comfort is our care.</h3>
+        <br>
+        <p> 
+          After a long day of work or sightseeing, or discovering the city's beauties, take a well-deserved break. Sleep in a Bayshore inn and awake with all the enthusiasm you'll need for another day of lovely living.
+        </p>
+      </div>
+    </div>
+    <div class="left">
+      <img class="leftPic" src="Hotel/service.jpg" alt="Service">
+      <div class="leftDis">
+        <h1>SERVICE</h1>
+        <br>
+        <h3>Come today,get Today</h3>
+        <br>
+        <p> 
+        If ambeince is one aspect of luxury, the service we deliver in it is a significant step forward. Yes, we believe that with the best service, you will have a quality time spent with us, thus we make every effort to serve you in all aspects that make you feel comfortable.
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <img class="rightPic" src="Hotel/pool.jpg" alt="Room">
+      <div class="rightDis">
+        <h1>POOL</h1>
+        <br>
+        <h3>Be COOL at the POOL</h3>
+        <br>
+        <p> 
+          Lounge and sunbathe on a deckchair and enjoy moments of delight, as our ever-attentive staff ensures your refreshments and cocktails coming.
+Start your day at our heavenly with a delicious breakfast at the restaurant, then rest in the shady, relaxing atmosphere of the blue tiled pool, which has a pool bar on one side. We offer a wide variety of drinks, champagne, and wine.
+        </p>
+      </div>
+    </div>
+    <div class="left">
+      <img class="leftPic" src="Hotel/spa.jpg" alt="Service">
+      <div class="leftDis">
+        <h1>SPA</h1>
+        <br>
+        <h3>Spark the glow</h3>
+        <br>
+        <p> 
+After a day of intense sight-seeing or work, get away from the busy and hectic life. There are SPA routines for relaxing tired muscles and stiff joints, easing other bodily aches and pains, and simply relaxing. 
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <img class="rightPic" src="Hotel/gym.jpg" alt="Room">
+      <div class="rightDis">
+        <h1>GYM</h1>
+        <br>
+        <h3>Energize and escape</h3>
+        <p> 
+          <br>
+          <br>
+          Charge Your Body at our gym. Advanced training equipment, such as a treadmill, stationary bike, cross-trainer, and multi-station strengthening machines and weights, are available in our personal and modern fitness facility.
+        </p>
+      </div>
+    </div>
+    <div class="left">
+      <img class="leftPic" src="Hotel/restaurant.jpg" alt="Service">
+      <div class="leftDis">
+        <h1>RESTAURANT</h1>
+        <br>
+        <h3>Eat anything you want</h3>
+        <br>
+        <br>
+        <p> 
+Whether you want a romantic breakfast in bed or simply a few oysters and champagne to enjoy while struggling to get out of bed, everything on our exquisite menu may be delivered to your room at any time of day and enjoyed in the peace of your own room.
+        </p>
+      </div>
+    </div>
+  </div>
+  <section class="newsletter section container">
+    <div class="newsletter__bg grid">
+        <div>
+            <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+            <p class="newsletter__description">
+                Don't miss out on your discounts. Subscribe to our email 
+                newsletter to get the best offers, discounts, coupons, 
+                gifts and much more.
+            </p>
+        </div>
+
+        <form action="" class="newsletter__subscribe">
+            <input type="email" placeholder="Enter your email" class="newsletter__input">
+            <button class="subcribeButton">
+                SUBSCRIBE
+            </button>
+        </form>
+    </div>
+  </section>
+
+  {{>footer}}
+
+  {{!-- <script>
+    var x = document.getElementById("login");
+          var y = document.getElementById("register"); 
+          var z = document.getElementById("btn"); 
+      
+          function register(){
+              x.style.left = "-400px";
+              y.style.left = "50px";
+              z.style.left = "110px";
+          }
+          function login(){
+              x.style.left = "50px";
+              y.style.left = "450px";
+              z.style.left = "0px";
+          }
+      
+</script>
+<script>
+document.getElementById('button').addEventListener('click',function(){
+  document.querySelector('.hero').style.display = 'block';
+});
+document.getElementById('close').addEventListener('click',function(){
+  document.querySelector('.hero').style.display = 'none';
+});
+
+</script>
+   --}}
+
+  </body>
+</html>   

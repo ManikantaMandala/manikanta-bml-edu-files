@@ -1,0 +1,33 @@
+*{
+    background-color: #253334;
+}
+
+.storyImages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.navigationBar{
+
+}
+.hamburger{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.firstLineVector{
+    width: 10px;
+    height: 2px;
+    background-color: white;
+}
+.secondLineVector{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+.thirdLineVector{
+    width: 10px;
+    height: 2px;
+    background-color: white;
+}
